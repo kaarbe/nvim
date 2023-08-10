@@ -48,16 +48,6 @@ return require("packer").startup(function(use)
 		}
 	}
 
-  use {
-  "nvim-neo-tree/neo-tree.nvim",
-    branch = "v2.x",
-    requires = {
-      "nvim-lua/plenary.nvim",
-      "nvim-tree/nvim-web-devicons",
-      "MunifTanjim/nui.nvim",
-    }
-  }
-
   -- Git status
   use {
     "lewis6991/gitsigns.nvim",
