@@ -18,7 +18,7 @@ lsp.setup_nvim_cmp({
 -- Swift LSP
 lsp.setup_servers({ "sourcekit" })
 require("lspconfig").sourcekit.setup {
-  cmd = { "sourcekit-lsp" },
+  cmd = { "/usr/bin/sourcekit-lsp" },
   filetypes = { "swift" },
 }
 
